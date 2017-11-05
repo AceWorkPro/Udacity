@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ace.udacity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="纳米学位应用"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_spotify_streamer"
+        android:layout_width="wrap_content"
+        android:text="热门电影"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_scores_app"
+        android:layout_width="wrap_content"
+        android:text="股票雄鹰"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_library_app"
+        android:layout_width="wrap_content"
+        android:text="XYZ 阅读器"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_build_it_bigger"
+        android:layout_width="wrap_content"
+        android:text="最新闻"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_xyz_reader"
+        android:layout_width="wrap_content"
+        android:text="毕业设计"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
